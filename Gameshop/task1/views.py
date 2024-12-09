@@ -23,7 +23,6 @@ def cart(request):
     return render(request, 'cart.html', context)
 
 
-# Create your views here.
 def sign_up_by_django(request):
     info = {}
     if request.method == 'POST':
@@ -81,4 +80,3 @@ def sign_up_by_html(request):
     return render(request, 'registration_page.html')
 from django.shortcuts import render
 
-# Create your views here.
